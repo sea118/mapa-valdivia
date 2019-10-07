@@ -1,0 +1,38 @@
+#val-map{
+  display: block;
+  position: relative;
+  margin:auto;
+
+}
+
+path{
+  fill:#555555;
+  fill-opacity:0.5;
+  stroke: #f9fafd !important;
+  stroke-width:1px;
+  /* stroke: #555555; */
+}
+path:hover {
+  stroke: #f9fafd !important;
+  stroke-width:1px;
+  stroke-linejoin: round;
+  fill: #002868 !important;
+  cursor: pointer;
+  transition: fill 0.4s;
+}
+
+#info-box {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  background-color: #ffffff;
+  border: 1px solid rgb(148, 112, 87);
+  border-radius: 2px;
+  padding: 5px;
+  font-family: arial;
+  font-size: 12px;
+  text-align: center;
+}
+
